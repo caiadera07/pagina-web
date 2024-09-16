@@ -1,0 +1,43 @@
+body {
+    background: lightskyblue;
+    color: black;
+    margin: 0px;
+    font-family: "Silkscreen", system-ui;
+}
+
+header {
+    border-bottom: solid 2px blue;
+    font-size: 50px;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    background: rgb(17, 185, 190);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    justify-content: center;
+}
+
+.título-video {
+    margin-right: 5%;
+}
+img{
+    height: 200px ;
+}
+.fila-videos{
+    display:flex;
+    overflow-x:auto;
+    gap:20px;
+}
+.fila{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.fila-videos img{
+    opacity:0,5;
+    height:200px;
+}
+.fila-videos img:houver{
+    opacity:1,0;
+}
